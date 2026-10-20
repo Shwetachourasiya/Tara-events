@@ -1,0 +1,415 @@
+nav{background-color:#FFF9F0; padding:10px;}
+nav a{color:black; text-decoration: none; margin:90px;}
+
+
+
+/* ==============================
+   TARA EVENTS - BOOK MY EVENT
+================================ */
+
+
+/* PAGE */
+
+.book-page {
+    background-color:#FFF9F0;
+    color:#2F2925;
+    min-height:100vh;
+    font-family:Georgia, serif;
+}
+
+
+/* NAVIGATION */
+
+.book-nav {
+    background-color:#641C2B;
+    min-height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 35px;
+    box-sizing:border-box;
+    border-bottom:2px solid #C49A4A;
+}
+
+
+.nav-logo {
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+
+.nav-logo img {
+    width:65px;
+    height:65px;
+    object-fit:contain;
+}
+
+
+.nav-logo span {
+    color:#FFF9F0;
+    font-size:22px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+
+.nav-links {
+    display:flex;
+    gap:28px;
+}
+
+
+.nav-links a {
+    color:#FFF9F0;
+    text-decoration:none;
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+
+.nav-links a:hover {
+    color:#C49A4A;
+}
+
+
+/* HERO */
+
+.book-hero {
+    text-align:center;
+    background-color:#FFF9F0;
+    padding:85px 30px 75px;
+}
+
+
+.hero-decoration {
+    color:#C49A4A;
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+
+.book-hero > p:first-of-type {
+    color:#C49A4A;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:4px;
+}
+
+
+.book-hero h1 {
+    color:#641C2B;
+    font-size:58px;
+    line-height:1.15;
+    margin:20px 0;
+}
+
+
+.book-hero h1 span {
+    color:#C49A4A;
+    font-style:italic;
+}
+
+
+.gold-line {
+    width:80px;
+    height:2px;
+    background-color:#C49A4A;
+    margin:25px auto;
+}
+
+
+.book-hero h3 {
+    color:#2F2925;
+    font-size:22px;
+    font-weight:normal;
+}
+
+
+.hero-text {
+    max-width:650px;
+    margin:15px auto;
+    color:#5A5552;
+    font-size:17px;
+    line-height:1.8;
+}
+
+
+/* BOOKING AREA */
+
+.booking-area {
+    background-color:#F4E3D3;
+    padding:75px 7%;
+    display:flex;
+    justify-content:center;
+    gap:55px;
+    align-items:flex-start;
+}
+
+
+/* FORM CARD */
+
+.booking-card {
+    background-color:#FFF9F0;
+    width:620px;
+    padding:45px;
+    box-sizing:border-box;
+    border:1px solid #C49A4A;
+    box-shadow:0 12px 30px rgba(0,0,0,0.12);
+}
+
+
+.card-heading {
+    text-align:center;
+    margin-bottom:35px;
+}
+
+
+.card-heading p {
+    color:#C49A4A;
+    font-size:14px;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+
+
+.card-heading h2 {
+    color:#641C2B;
+    font-size:34px;
+    margin:12px 0;
+}
+
+
+.card-heading span {
+    color:#5A5552;
+    font-size:15px;
+}
+
+
+/* INPUTS */
+
+.input-row {
+    display:flex;
+    gap:20px;
+}
+
+
+.input-box {
+    width:100%;
+    margin-bottom:20px;
+}
+
+
+.input-box label {
+    display:block;
+    color:#641C2B;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom:8px;
+}
+
+
+.input-box input,
+.input-box select,
+.input-box textarea {
+    width:100%;
+    box-sizing:border-box;
+    padding:13px;
+    background-color:#F4E3D3;
+    border:1px solid #C49A4A;
+    color:#2F2925;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+
+.input-box input:focus,
+.input-box select:focus,
+.input-box textarea:focus {
+    outline:none;
+    border:2px solid #641C2B;
+}
+
+
+.input-box textarea {
+    resize:none;
+}
+
+
+/* BUTTON */
+
+.booking-card button {
+    width:100%;
+    padding:16px;
+    margin-top:10px;
+    border:none;
+    background-color:#641C2B;
+    color:#FFF9F0;
+    font-size:15px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+
+
+.booking-card button:hover {
+    background-color:#C49A4A;
+    color:#2F2925;
+}
+
+
+/* RIGHT SIDE */
+
+.book-side {
+    width:380px;
+}
+
+
+/* QUOTE */
+
+.quote-card {
+    background-color:#641C2B;
+    color:#FFF9F0;
+    padding:40px;
+    text-align:center;
+    border:1px solid #C49A4A;
+    margin-bottom:30px;
+}
+
+
+.quote-mark {
+    color:#C49A4A;
+    font-size:55px;
+}
+
+
+.quote-card h2 {
+    font-size:30px;
+    line-height:1.4;
+    font-weight:normal;
+}
+
+
+.quote-card p {
+    color:#F4E3D3;
+    font-size:17px;
+    line-height:1.6;
+}
+
+
+.small-gold-line {
+    width:55px;
+    height:2px;
+    background-color:#C49A4A;
+    margin:25px auto;
+}
+
+
+.quote-card > span:last-child {
+    color:#C49A4A;
+    font-size:13px;
+    letter-spacing:2px;
+}
+
+
+/* MAP */
+
+.map-card {
+    background-color:#FFF9F0;
+    padding:25px;
+    border:1px solid #C49A4A;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+.map-heading {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+
+.map-heading p {
+    color:#C49A4A;
+    font-size:13px;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+
+.map-heading h2 {
+    color:#641C2B;
+    font-size:28px;
+    margin:10px;
+}
+
+
+.map-heading span {
+    color:#5A5552;
+    font-size:15px;
+}
+
+
+.map {
+    border:2px solid #C49A4A;
+    padding:5px;
+}
+
+
+.map iframe {
+    display:block;
+}
+
+
+.location-text {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:15px;
+}
+
+
+.location-text span {
+    font-size:20px;
+}
+
+
+.location-text p {
+    color:#5A5552;
+    font-size:14px;
+}
+
+
+/* BOTTOM */
+
+.book-bottom {
+    background-color:#641C2B;
+    text-align:center;
+    padding:70px 30px;
+    border-top:3px solid #C49A4A;
+}
+
+
+.bottom-star {
+    color:#C49A4A;
+    font-size:28px;
+}
+
+
+.book-bottom h2 {
+    color:#FFF9F0;
+    font-size:38px;
+    line-height:1.4;
+    font-weight:normal;
+}
+
+
+.book-bottom h2 i {
+    color:#C49A4A;
+}
+
+
+.book-bottom p {
+    color:#F4E3D3;
+    font-size:17px;
+}

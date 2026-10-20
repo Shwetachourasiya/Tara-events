@@ -1,0 +1,467 @@
+nav{background-color:#FFF9F0; padding:10px;}
+nav a{color:black; text-decoration: none; margin:90px;}
+
+
+
+/* ==================================
+   TARA EVENTS - CONTACT PAGE
+================================== */
+
+
+/* PAGE */
+
+.contact-page {
+    background-color:#FFF9F0;
+    color:#2F2925;
+    min-height:100vh;
+    font-family:Georgia, serif;
+}
+
+
+/* NAVIGATION */
+
+.contact-nav {
+    background-color:#641C2B;
+    min-height:80px;
+    padding:10px 45px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-sizing:border-box;
+    border-bottom:2px solid #C49A4A;
+}
+
+
+.contact-logo {
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+
+.contact-logo img {
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
+
+.contact-logo span {
+    color:#FFF9F0;
+    font-size:21px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+
+.contact-links {
+    display:flex;
+    gap:25px;
+}
+
+
+.contact-links a {
+    color:#FFF9F0;
+    text-decoration:none;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+
+.contact-links a:hover {
+    color:#C49A4A;
+}
+
+
+
+/* HERO */
+
+.contact-hero {
+    background-color:#FFF9F0;
+    text-align:center;
+    padding:85px 30px 75px;
+}
+
+
+.contact-eyebrow {
+    color:#C49A4A;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:4px;
+}
+
+
+.contact-hero h1 {
+    color:#641C2B;
+    font-size:60px;
+    line-height:1.15;
+    margin:20px 0;
+}
+
+
+.contact-hero h1 span {
+    color:#C49A4A;
+    font-style:italic;
+}
+
+
+.contact-line {
+    width:75px;
+    height:2px;
+    background-color:#C49A4A;
+    margin:25px auto;
+}
+
+
+.contact-intro {
+    max-width:600px;
+    margin:auto;
+    color:#5A5552;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+
+/* INFORMATION */
+
+.contact-information {
+    background-color:#F4E3D3;
+    padding:75px 7%;
+}
+
+
+.info-heading {
+    text-align:center;
+    margin-bottom:45px;
+}
+
+
+.info-heading p {
+    color:#C49A4A;
+    font-size:14px;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+
+
+.info-heading h2 {
+    color:#641C2B;
+    font-size:40px;
+    line-height:1.3;
+}
+
+
+.info-grid {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+
+.info-card {
+    background-color:#FFF9F0;
+    width:220px;
+    min-height:190px;
+    padding:30px 20px;
+    text-align:center;
+    border:1px solid #C49A4A;
+    box-sizing:border-box;
+}
+
+
+.info-icon {
+    color:#C49A4A;
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+
+.info-card h3 {
+    color:#641C2B;
+    font-size:21px;
+}
+
+
+.info-card p {
+    color:#5A5552;
+    font-size:14px;
+    line-height:1.5;
+}
+
+
+.info-card a,
+.info-card span {
+    color:#641C2B;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+.info-card a:hover {
+    color:#C49A4A;
+}
+
+
+
+/* MESSAGE */
+
+.message-section {
+    background-color:#FFF9F0;
+    padding:80px 10%;
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    align-items:center;
+}
+
+
+.message-text {
+    width:40%;
+}
+
+
+.message-text > p:first-child {
+    color:#C49A4A;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+
+.message-text h2 {
+    color:#641C2B;
+    font-size:46px;
+    line-height:1.2;
+}
+
+
+.message-line {
+    width:60px;
+    height:2px;
+    background-color:#C49A4A;
+    margin:25px 0;
+}
+
+
+.message-description {
+    color:#5A5552;
+    font-size:16px;
+    line-height:1.8;
+}
+
+
+.little-note {
+    color:#641C2B;
+    background-color:#F4E3D3;
+    border-left:3px solid #C49A4A;
+    padding:18px;
+    margin-top:25px;
+    font-size:14px;
+    line-height:1.6;
+}
+
+
+
+/* FORM */
+
+.message-form {
+    width:470px;
+    background-color:#F4E3D3;
+    padding:40px;
+    border:1px solid #C49A4A;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    box-sizing:border-box;
+}
+
+
+.message-form label {
+    display:block;
+    color:#641C2B;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin:15px 0 7px;
+}
+
+
+.message-form input,
+.message-form select,
+.message-form textarea {
+    width:100%;
+    box-sizing:border-box;
+    padding:13px;
+    background-color:#FFF9F0;
+    border:1px solid #C49A4A;
+    color:#2F2925;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+
+.message-form textarea {
+    resize:none;
+}
+
+
+.message-form input:focus,
+.message-form select:focus,
+.message-form textarea:focus {
+    outline:none;
+    border:2px solid #641C2B;
+}
+
+
+.message-form button {
+    width:100%;
+    margin-top:25px;
+    padding:16px;
+    border:none;
+    background-color:#641C2B;
+    color:#FFF9F0;
+    font-size:15px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+
+
+.message-form button:hover {
+    background-color:#C49A4A;
+    color:#2F2925;
+}
+
+
+
+/* QUICK HELP */
+
+.quick-help {
+    background-color:#F4E3D3;
+    padding:70px 7%;
+    text-align:center;
+}
+
+
+.quick-help > p {
+    color:#C49A4A;
+    font-size:14px;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+
+
+.quick-help h2 {
+    color:#641C2B;
+    font-size:35px;
+    margin-bottom:40px;
+}
+
+
+.faq-container {
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+
+.faq-card {
+    background-color:#FFF9F0;
+    width:280px;
+    min-height:180px;
+    padding:25px;
+    text-align:left;
+    border:1px solid #C49A4A;
+}
+
+
+.faq-card span {
+    color:#C49A4A;
+    font-size:14px;
+    font-weight:bold;
+}
+
+
+.faq-card h3 {
+    color:#641C2B;
+    font-size:20px;
+}
+
+
+.faq-card p {
+    color:#5A5552;
+    font-size:15px;
+    line-height:1.6;
+}
+
+
+.faq-card b {
+    color:#641C2B;
+}
+
+
+
+/* ENDING */
+
+.contact-ending {
+    background-color:#641C2B;
+    text-align:center;
+    padding:70px 30px;
+    border-top:3px solid #C49A4A;
+}
+
+
+.contact-ending > div:first-child {
+    color:#C49A4A;
+    font-size:28px;
+}
+
+
+.contact-ending h2 {
+    color:#FFF9F0;
+    font-size:38px;
+    line-height:1.4;
+    font-weight:normal;
+}
+
+
+.contact-ending h2 i {
+    color:#C49A4A;
+}
+
+
+.contact-ending p {
+    color:#F4E3D3;
+    font-size:17px;
+}
+
+
+.ending-stars {
+    color:#C49A4A;
+    font-size:18px;
+    margin-top:25px;
+}
+
+
+
+/* FOOTER */
+
+.contact-footer {
+    background-color:#641C2B;
+    border-top:1px solid #C49A4A;
+    text-align:center;
+    padding:20px;
+}
+
+
+.contact-footer p {
+    color:#FFF9F0;
+    font-size:14px;
+}
+
+
+.contact-footer span {
+    color:#C49A4A;
+    font-size:13px;
+}
